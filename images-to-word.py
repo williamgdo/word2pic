@@ -44,4 +44,4 @@ for word in words:
     # draw.text(text_position, word, font=font, fill="black")
     
     # Save the image
-    image.save(f"Images/{process_text(word)}.png")
+    image.save(f"images/{process_text(word)}.png")
